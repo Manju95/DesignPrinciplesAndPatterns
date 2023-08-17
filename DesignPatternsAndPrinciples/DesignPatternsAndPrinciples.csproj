@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="DesignPrinciples\" />
+    <None Remove="DesignPrinciples\SOLID\" />
+    <None Remove="DesignPrinciples\DRY\" />
+    <None Remove="DesignPrinciples\KISS%28Keep It Simple and Stupid%29\" />
+    <None Remove="DesignPrinciples\YAGNI\" />
+    <None Remove="Design Patterns\" />
+    <None Remove="Design Patterns\Creational Patterns\" />
+    <None Remove="Design Patterns\Structural Patterns\" />
+    <None Remove="Design Patterns\Behavioural Patterns\" />
+    <None Remove="DesignPrinciples\SOLID\Models\" />
+    <None Remove="DesignPrinciples\SOLID\Interfaces\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DesignPrinciples\" />
+    <Folder Include="DesignPrinciples\SOLID\" />
+    <Folder Include="DesignPrinciples\DRY\" />
+    <Folder Include="DesignPrinciples\KISS%28Keep It Simple and Stupid%29\" />
+    <Folder Include="DesignPrinciples\YAGNI\" />
+    <Folder Include="Design Patterns\" />
+    <Folder Include="Design Patterns\Creational Patterns\" />
+    <Folder Include="Design Patterns\Structural Patterns\" />
+    <Folder Include="Design Patterns\Behavioural Patterns\" />
+    <Folder Include="DesignPrinciples\SOLID\Models\" />
+    <Folder Include="DesignPrinciples\SOLID\Interfaces\" />
+  </ItemGroup>
+</Project>
