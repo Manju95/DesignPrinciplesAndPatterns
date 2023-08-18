@@ -1,4 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using DesignPatternsAndPrinciples.DesignPatterns.BehaviouralPatterns;
+using DesignPatternsAndPrinciples.DesignPatterns.StructuralPatterns;
 using DotnetTraining.DesignPatterns.CreationalPatterns;
 using DotnetTraining.DesignPrinciples.SOLID;
 
@@ -32,4 +34,30 @@ CreationalPatternsConsumer cp = new CreationalPatternsConsumer();
 //cp.RunBuilderPattern();
 
 // Factory Method Pattern
-cp.RunFactoryMethod();
+//cp.RunFactoryMethod();
+
+StructuralPatternService sp = new StructuralPatternService();
+
+// Proxy
+//sp.RunProxy();
+
+
+BehaviroalPatternService bp = new BehaviroalPatternService();
+
+// ChainOfResponsiblity
+//bp.RunChainOfResponsiblity();
+
+// Command Pattern
+//bp.RunCommandPattern();
+
+// Interpreter Pattern
+//bp.RunInterpreter();
+
+// Iterator Pattern
+//bp.RunIterator();
+
+// Mediator Pattern
+//bp.RunMediator();
+
+
+Console.ReadLine();
